@@ -9,10 +9,10 @@ struct node{
 };
 
 void insert(struct node **, int);
-void delete(struct node **, int);
 void inorder(struct node *);
 void display(struct node *);
 void del_inorder(struct node *);
+void delete(struct node **, int);
 void _destruct(struct node *);
 void destruct(struct node **);
 
