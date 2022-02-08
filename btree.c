@@ -150,9 +150,6 @@ void delete(struct node **root, int val){
                 max->parent->right = max->right;
             }
         }
-        max->left = NULL;
-        max->right = NULL;
-        max->parent = NULL;
         temp->val = max->val;
         free(max);
         max = NULL;
